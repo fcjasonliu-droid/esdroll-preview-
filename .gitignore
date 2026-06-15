@@ -1,0 +1,16 @@
+# Generated
+.DS_Store
+*.log
+node_modules/
+.idea/
+.vscode/
+
+# Local dev
+*.local
+
+# Sensitive
+.env
+.env.local
+
+# User-specific
+google-services-account.json

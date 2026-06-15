@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "default_language": "en",
+  "supported": [
+    {
+      "code": "en",
+      "name": "English",
+      "native": "English"
+    },
+    {
+      "code": "zh",
+      "name": "中文",
+      "native": "中文"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "native": "Español"
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "native": "日本語"
+    },
+    {
+      "code": "ko",
+      "name": "한국어",
+      "native": "한국어"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "native": "Deutsch"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "native": "Français"
+    },
+    {
+      "code": "vi",
+      "name": "Tiếng Việt",
+      "native": "Tiếng Việt"
+    }
+  ],
+  "fallback_chain": {
+    "en": "en",
+    "zh": "en",
+    "es": "en",
+    "ja": "en",
+    "ko": "en",
+    "de": "en",
+    "fr": "en",
+    "vi": "en"
+  }
+}

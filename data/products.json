@@ -1,0 +1,196 @@
+[
+  {
+    "id": "general-esd-mat",
+    "name": "GENERAL ESD MAT",
+    "img": "products/general-esd-mat.webp",
+    "desc": "Best-selling mat for SMT lines worldwide. Consistent 10⁶–10⁹ Ω batch-to-batch. Used by 50+ EMS providers. RoHS 2.0 + SGS.",
+    "thickness": "2.0mm ± 0.2mm",
+    "surface_resistance": "≤ 10⁹ Ω",
+    "color": "Green / Blue / Grey",
+    "tag": "Best Seller",
+    "tag_color": "#16a34a",
+    "specs": {
+      "Material": "NBR + Natural Rubber (60-70%)",
+      "Construction": "Dual-layer (Dissipative top + Conductive bottom)",
+      "Tensile Strength": "≥10 MPa (top) / ≥5 MPa (bottom)",
+      "Elongation": "≥150% (top) / ≥120% (bottom)",
+      "Operating Temp": "-30°C to +300°C",
+      "Flame Rating": "Self-extinguishing (400°C no ignition)",
+      "Certification": "RoHS 2.0, SGS, SJ/T 10694-2022",
+      "Shelf Life": "2 years (proper storage)",
+      "Standard Sizes": "1.0m×10m, 1.2m×10m, custom",
+      "Grounding": "2× copper foils + grounding snap kit"
+    }
+  },
+  {
+    "id": "rohs-2-0",
+    "name": "ROHS 2.0 STANDARD ESD MAT",
+    "img": "products/2-layer-esd-mat.jpg",
+    "desc": "EU-ready ESD mat with full SGS compliance docs. 0 customs risk for European electronics production. Tensile ≥13 MPa.",
+    "thickness": "2.0mm ± 0.2mm",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Green / Blue / Grey",
+    "tag": "EU Standard",
+    "tag_color": "#2563eb",
+    "specs": {
+      "Material": "NBR + Natural Rubber (60-70%)",
+      "Construction": "Dual-layer (Dissipative top + Conductive bottom)",
+      "Tensile Strength": "≥13 MPa (top) / ≥6 MPa (bottom)",
+      "Elongation": "≥180% (top) / ≥140% (bottom)",
+      "Operating Temp": "-30°C to +300°C",
+      "Flame Rating": "Self-extinguishing (400°C no ignition)",
+      "Certification": "RoHS 2.0 (EU 2011/65/EU), SGS, SJ/T 10694-2022",
+      "Shelf Life": "2 years (proper storage)",
+      "Standard Sizes": "1.0m×10m, 1.2m×10m, custom",
+      "Grounding": "2× copper foils + grounding snap kit"
+    }
+  },
+  {
+    "id": "rohs-3-0",
+    "name": "ROHS 3.0 ESD MAT",
+    "img": "products/rohs-3-0-esd-mat.webp",
+    "desc": "Full 10-substance RoHS 3.0 compliance + IEC 61249-2-21 halogen-free. Required for EU devices after Jul 2019. Future-proof your supply chain.",
+    "thickness": "2.0mm ± 0.2mm",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Green / Blue / Grey",
+    "tag": "Latest",
+    "tag_color": "#7c3aed",
+    "specs": {
+      "Material": "NBR + Natural Rubber (60-70%)",
+      "Construction": "Dual-layer (Dissipative top + Conductive bottom)",
+      "Tensile Strength": "≥13 MPa (top) / ≥6 MPa (bottom)",
+      "Elongation": "≥180% (top) / ≥140% (bottom)",
+      "Operating Temp": "-30°C to +300°C",
+      "Flame Rating": "Self-extinguishing (400°C no ignition)",
+      "Certification": "RoHS 3.0 (EU 2015/863, 10 substances), SGS, IEC 61249-2-21 halogen-free",
+      "Shelf Life": "2 years (proper storage)",
+      "Standard Sizes": "1.0m×10m, 1.2m×10m, custom",
+      "Grounding": "2× copper foils + grounding snap kit"
+    }
+  },
+  {
+    "id": "anti-fatigue-2",
+    "name": "2 Layers Anti-Fatigue Mat",
+    "img": "products/2-layer-anti-fatigue.jpg",
+    "desc": "Stand 8+ hours without fatigue. NBR foam base + ESD top layer. Yellow safety edge prevents tripping. RoHS 2.0.",
+    "thickness": "12.7mm / 17mm",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Black / Yellow edge",
+    "tag": "Ergonomic",
+    "tag_color": "#0891b2",
+    "specs": {
+      "Material": "NBR foam (base) + ESD rubber (top)",
+      "Construction": "2-layer foam + dissipative top",
+      "Compression Set": "≤10% (22h, 70°C)",
+      "Hardness": "Shore A 50-60",
+      "Operating Temp": "-20°C to +80°C",
+      "Edge": "Yellow beveled safety edge (anti-trip)",
+      "Certification": "RoHS 2.0, SGS",
+      "Standard Sizes": "0.6m×0.9m, 0.9m×1.5m, 0.9m×3m, custom"
+    }
+  },
+  {
+    "id": "anti-fatigue-3",
+    "name": "3 Layers ESD Anti-Fatigue Mat",
+    "img": "products/3-layer-anti-fatigue.jpg",
+    "desc": "ANSI/ESD S20.20 compliant. 3-layer construction: foam + conductive scrim + dissipative top. Best for cleanroom standing workstations.",
+    "thickness": "17mm / 20mm",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Black / Yellow edge",
+    "tag": "Premium",
+    "tag_color": "#7c3aed",
+    "specs": {
+      "Material": "NBR foam (base) + conductive fabric (mid) + ESD rubber (top)",
+      "Construction": "3-layer (foam + conductive scrim + dissipative top)",
+      "Compression Set": "≤8% (22h, 70°C)",
+      "Hardness": "Shore A 45-55",
+      "Operating Temp": "-20°C to +80°C",
+      "Edge": "Yellow beveled safety edge (anti-trip)",
+      "Certification": "RoHS 2.0, SGS, ANSI/ESD S20.20",
+      "Standard Sizes": "0.6m×0.9m, 0.9m×1.5m, 0.9m×3m, custom"
+    }
+  },
+  {
+    "id": "esd-pvc-curtain",
+    "name": "Clear ESD PVC Curtain",
+    "img": "products/esd-pvc-curtain.jpg",
+    "desc": "≥80% light transmission, UL94 V-0 optional. Create ESD-safe zones in minutes. 20–30m rolls for large cleanroom partitions.",
+    "thickness": "2.0mm / 3.0mm",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Clear / Yellow tint",
+    "tag": "Industrial",
+    "tag_color": "#0891b2",
+    "specs": {
+      "Material": "PVC + anti-static coating",
+      "Surface Resistance": "10⁶–10⁹ Ω",
+      "Light Transmittance": "≥80%",
+      "Operating Temp": "-15°C to +50°C",
+      "Flame Rating": "Self-extinguishing (UL94 V-0 optional)",
+      "Width Options": "1.0m / 1.2m / 1.4m (roll form)",
+      "Standard Length": "20m / 30m rolls"
+    }
+  },
+  {
+    "id": "custom-anti-fatigue",
+    "name": "Customized Anti-Fatigue Mat",
+    "img": "products/3-layer-anti-fatigue.jpg",
+    "desc": "Your brand, your spec. Pantone color match, logo on backing, custom packaging. Sample in 7 days. MOQ 100 rolls (custom).",
+    "thickness": "Custom",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Custom",
+    "tag": "OEM/ODM",
+    "tag_color": "#ea580c",
+    "specs": {
+      "Material": "Customizable (NBR / EPDM / silicone)",
+      "Construction": "2 or 3 layers, your spec",
+      "Custom Options": "Size, color, thickness, hardness, logo, packaging",
+      "MOQ": "100 rolls (custom), 50 rolls (standard)",
+      "Sample Lead Time": "7 days",
+      "Production Lead Time": "15-25 working days",
+      "Certification": "RoHS 2.0/3.0, SGS, custom on request"
+    }
+  },
+  {
+    "id": "custom-esd-mat",
+    "name": "Customized ESD Mat",
+    "img": "products/customized-mat.jpg",
+    "desc": "Full OEM/ODM: any size up to 1.5m×10m, any color, any hardness. Private label + custom packaging. 15–25 days production.",
+    "thickness": "Custom",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Custom",
+    "tag": "Project",
+    "tag_color": "#ea580c",
+    "specs": {
+      "Material": "Customizable (NBR / silicone / EPDM / PVC)",
+      "Construction": "Single, dual, or tri-layer per spec",
+      "Custom Options": "Size, color, thickness, hardness, logo, packaging",
+      "MOQ": "100 rolls (custom), 50 rolls (standard)",
+      "Sample Lead Time": "7 days",
+      "Production Lead Time": "15-25 working days",
+      "Certification": "RoHS 2.0/3.0, SGS, custom on request"
+    }
+  },
+  {
+    "id": "3-layer-premium",
+    "name": "3 Layer Premium ESD Mat",
+    "img": "products/3-layer-esd-mat.jpg",
+    "desc": "Heavy-duty 3-layer (2.5–3mm). Tensile 15MPa. 400°C self-extinguishing. For high-traffic semiconductor and automotive electronics lines.",
+    "thickness": "2.5mm / 3.0mm",
+    "surface_resistance": "10⁶–10⁹ Ω",
+    "color": "Green / Blue / Grey",
+    "tag": "Pro",
+    "tag_color": "#7c3aed",
+    "specs": {
+      "Material": "NBR + Natural Rubber (60-70%) + conductive scrim",
+      "Construction": "3-layer (dissipative + conductive scrim + conductive)",
+      "Tensile Strength": "≥15 MPa (top) / ≥8 MPa (bottom)",
+      "Elongation": "≥200% (top) / ≥160% (bottom)",
+      "Operating Temp": "-30°C to +300°C",
+      "Flame Rating": "Self-extinguishing (400°C no ignition)",
+      "Certification": "RoHS 3.0, SGS, SJ/T 10694-2022, IEC 61249-2-21",
+      "Shelf Life": "2 years (proper storage)",
+      "Standard Sizes": "1.0m×10m, 1.2m×10m, custom",
+      "Grounding": "2× copper foils + grounding snap kit"
+    }
+  }
+]

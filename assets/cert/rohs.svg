@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 绿叶主体 (椭圆形,叶尖朝右上) -->
+  <g fill="#00A300">
+    <!-- 主叶身: 从左下到右上的椭圆形 -->
+    <path d="M 35 145 C 35 75 95 35 165 30 C 160 95 110 145 35 145 Z"/>
+    <!-- 茎: 短直线连接底部 -->
+    <path d="M 30 150 L 50 130 L 45 145 L 28 152 Z"/>
+  </g>
+  <!-- RoHS 文字 -->
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="36" font-weight="900" 
+        fill="#00A300" text-anchor="middle" letter-spacing="3">RoHS</text>
+</svg>

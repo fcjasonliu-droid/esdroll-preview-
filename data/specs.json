@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 7V5a2 2 0 0 1 2-2h2\"/><path d=\"M17 3h2a2 2 0 0 1 2 2v2\"/><path d=\"M21 17v2a2 2 0 0 1-2 2h-2\"/><path d=\"M7 21H5a2 2 0 0 1-2-2v-2\"/><path d=\"M7 8v8\"/><path d=\"M11 8v8\"/><path d=\"M15 8v8\"/><path d=\"M17 8v8\"/><path d=\"M3 12h18\"/></svg>",
+      "title": "Incoming Quality Control",
+      "title_zh": "来料检验 (IQC)",
+      "primary": "100%",
+      "primary_label": "Inspection on Every Raw Batch",
+      "primary_label_zh": "每批原料 100% 入库检验",
+      "rows": [
+        {
+          "label": "Rubber purity verified",
+          "label_zh": "橡胶纯度核验",
+          "value": "NBR + Natural"
+        },
+        {
+          "label": "Heavy-metal screen",
+          "label_zh": "重金属筛查",
+          "value": "RoHS 3.0 limits"
+        }
+      ]
+    },
+    {
+      "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 14 4-4\"/><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"/></svg>",
+      "title": "In-Process Control",
+      "title_zh": "过程控制 (IPQC)",
+      "primary": "8-Point",
+      "primary_label": "Electrical Test on Every Mat",
+      "primary_label_zh": "每张地垫 8 点电气测试",
+      "rows": [
+        {
+          "label": "Thickness check cycle",
+          "label_zh": "厚度巡检频次",
+          "value": "Every 30 min"
+        },
+        {
+          "label": "Surface resistance range",
+          "label_zh": "表面电阻合格范围",
+          "value": "10⁶–10⁹ Ω"
+        }
+      ]
+    },
+    {
+      "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m16 16 2 2 4-4\"/><path d=\"M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14\"/><path d=\"m7.5 4.27 9 5.15\"/><polyline points=\"3.29 7 12 12 20.71 7\"/><line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"12\"/></svg>",
+      "title": "Outgoing Quality Control",
+      "title_zh": "出厂检验 (OQC)",
+      "primary": "AQL 1.5",
+      "primary_label": "Final Batch Sampling Standard",
+      "primary_label_zh": "整批抽检严格度",
+      "rows": [
+        {
+          "label": "Document per shipment",
+          "label_zh": "每批附带文件",
+          "value": "Full Documentation Package"
+        },
+        {
+          "label": "Packaging seal check",
+          "label_zh": "包装密封性确认",
+          "value": "Vacuum-sealed"
+        }
+      ]
+    },
+    {
+      "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"/><path d=\"m9 12 2 2 4-4\"/></svg>",
+      "title": "Third-Party Verification",
+      "title_zh": "第三方独立背书",
+      "primary": "4 time/year",
+      "primary_label": "SGS Factory Audits",
+      "primary_label_zh": "SGS 工厂审核频率",
+      "rows": [
+        {
+          "label": "Independent lab",
+          "label_zh": "独立实验室",
+          "value": "SGS + CTI"
+        },
+        {
+          "label": "Lot traceability",
+          "label_zh": "批次可追溯",
+          "value": "long-term digital archive"
+        }
+      ]
+    }
+  ]
+}
