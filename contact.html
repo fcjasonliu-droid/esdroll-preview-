@@ -159,7 +159,12 @@
       <div class="contact-form-wrap">
         <h2><span data-i18n="text_182_send_us_a_message">Send Us a Message</span></h2>
         <p class="quote-cta">Or call us directly: <a href="tel:+8618697593366"><strong>+86 18697593366</strong></a> (Mon–Sat, 9:00–18:00 CST)</p>
-        <form class="form" onsubmit="event.preventDefault(); handleQuoteSubmit(this);" novalidate>
+        <form class="form" action="https://formsubmit.co/coco@esdroll.com" method="POST" enctype="multipart/form-data" onsubmit="return handleQuoteSubmit(this);" novalidate>
+          <input type="hidden" name="_subject" value="New Contact Inquiry (esdroll.com)">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://fcjasonliu-droid.github.io/esdroll-preview-/thank-you.html">
+          <input type="text" name="_honey" style="display:none">
           <div class="form-row">
             <div class="form-group">
               <label for="qf-name"><span data-i18n="text_079_your_name">Your Name *</span></label>
