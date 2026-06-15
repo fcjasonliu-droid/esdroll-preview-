@@ -601,6 +601,11 @@ section { padding: 96px 0; }
   .cert-name { font-size: 11px; }
   .cert-icon { width: 44px; height: 44px; }
   .cert-desc { font-size: 10px; }
+  /* App cards (ESD Mat Use Scenarios) */
+  .app-body { padding: 16px; }
+  .app-body h3 { font-size: 16px; }
+  .app-body p { font-size: 13px; }
+  .app-img { aspect-ratio: 16/9; }
   /* Feature cards */
   .feature-card { padding: 28px 20px; }
   .feature-card h3 { font-size: 18px; }
