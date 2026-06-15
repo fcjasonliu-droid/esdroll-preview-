@@ -566,15 +566,61 @@ section { padding: 96px 0; }
   .users-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
   .user-logo { height: 70px; padding: 10px; }
   .user-logo img { max-height: 40px; }
+  .page-hero { padding: 64px 0 48px; }
+  .page-hero h1 { font-size: 30px; }
+  .page-hero p { font-size: 16px; }
+  .stats-bar { padding: 48px 0; }
   .hero-thumbs { gap: 8px; }
   .hero-thumb { width: 60px; height: 45px; }
+  .hero-cta { flex-direction: column; align-items: center; }
+  .hero-cta .btn { width: 100%; max-width: 320px; }
 }
 @media (max-width: 480px) {
-  .users-grid { grid-template-columns: repeat(2, 1fr); }
-  .cert-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-  .cert-badge { padding: 16px 12px; }
+  /* Layout spacing */
+  section { padding: 48px 0; }
+  .hero { min-height: 400px; }
+  .hero-content { padding: 60px 24px; }
+  .page-hero { padding: 48px 0 40px; }
+  .page-hero h1 { font-size: 26px; }
+  .page-hero p { font-size: 15px; }
+  .stats-bar { padding: 40px 0; }
+  .stats-grid { grid-template-columns: 1fr; gap: 24px; }
+  .stat-num { font-size: 32px; }
+  .stat-label { font-size: 12px; }
+  /* Typography */
+  .section-title { font-size: 24px; }
+  .section-sub { font-size: 14px; margin-bottom: 32px; }
+  .hero h1 { font-size: 28px; }
+  .hero-sub { font-size: 15px; }
+  /* Grids */
+  .users-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .user-logo { height: 56px; padding: 8px; }
+  .user-logo img { max-height: 32px; }
+  .cert-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .cert-badge { padding: 12px 8px; border-radius: 8px; }
+  .cert-name { font-size: 11px; }
+  .cert-icon { width: 44px; height: 44px; }
+  .cert-desc { font-size: 10px; }
+  /* Feature cards */
+  .feature-card { padding: 28px 20px; }
+  .feature-card h3 { font-size: 18px; }
+  .feature-card p { font-size: 14px; }
+  .feature-num { font-size: 36px; }
+  /* Product cards */
+  .product-card-body { padding: 16px; }
+  .product-card h3 { font-size: 17px; }
+  .product-card p { font-size: 13px; }
+  .product-card .product-meta { flex-wrap: wrap; gap: 8px; }
+  /* Buttons */
+  .hero-cta .btn { width: 100%; max-width: 260px; padding: 12px 20px; font-size: 13px; }
+  /* Thumbs */
   .hero-thumb { width: 52px; height: 39px; }
-  .stat-num { font-size: 36px; }
+  .hero-thumbs { gap: 6px; margin-top: 32px; }
+  /* Footer */
+  .site-footer { padding: 40px 0 16px; }
+  .footer-grid { gap: 32px; }
+  .site-footer h3 { font-size: 16px; }
+  .site-footer p, .site-footer li { font-size: 14px; }
 }
 
 /* ============== Material Card with Image ============== */
