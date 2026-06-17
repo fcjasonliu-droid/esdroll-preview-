@@ -575,18 +575,22 @@ section { padding: 96px 0; }
   .hero-cta { flex-direction: column; align-items: center; }
   .hero-cta .btn { width: 100%; max-width: 320px; }
 
-  /* Industry applications: vertical stack on mobile */
+  /* Industry applications: vertical cards like products on mobile */
   .apps-grid { gap: 20px; }
-  .app-card { 
+  .app-card {
     background: white;
     border-radius: 12px;
     border: 1px solid var(--gray-100);
     overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-    transition: box-shadow 0.2s;
+    transition: all var(--transition);
+    display: flex;
+    flex-direction: column;
   }
-  .app-img { aspect-ratio: 16/9; border-radius: 12px 12px 0 0; overflow: hidden; }
-  .app-body { padding: 16px 20px 20px; }
+  .app-img { aspect-ratio: 4/3; overflow: hidden; background: var(--gray-100); }
+  .app-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .app-body { padding: 20px; }
+  .app-body h3 { font-size: 18px; margin-bottom: 8px; }
+  .app-body p { font-size: 14px; }
 }
 @media (max-width: 480px) {
   /* Layout spacing */
