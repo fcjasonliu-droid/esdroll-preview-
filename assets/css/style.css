@@ -576,9 +576,17 @@ section { padding: 96px 0; }
   .hero-cta .btn { width: 100%; max-width: 320px; }
 
   /* Industry applications: vertical stack on mobile */
-  .apps-grid { gap: 16px; }
-  .apps-grid .app-card { margin-bottom: 0; }
-  .app-img { aspect-ratio: 16/9; }
+  .apps-grid { gap: 20px; }
+  .app-card { 
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--gray-100);
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    transition: box-shadow 0.2s;
+  }
+  .app-img { aspect-ratio: 16/9; border-radius: 12px 12px 0 0; overflow: hidden; }
+  .app-body { padding: 16px 20px 20px; }
 }
 @media (max-width: 480px) {
   /* Layout spacing */
