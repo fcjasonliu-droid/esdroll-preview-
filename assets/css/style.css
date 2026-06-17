@@ -574,6 +574,25 @@ section { padding: 96px 0; }
   .hero-thumb { width: 60px; height: 45px; }
   .hero-cta { flex-direction: column; align-items: center; }
   .hero-cta .btn { width: 100%; max-width: 320px; }
+
+  /* Industry applications: horizontal scroll on mobile */
+  .apps-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 8px;
+  }
+  .apps-grid::-webkit-scrollbar { height: 6px; }
+  .apps-grid::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 3px; }
+  .apps-grid .app-card {
+    flex: 0 0 75%;
+    scroll-snap-align: start;
+    min-width: 260px;
+  }
+  .app-img { aspect-ratio: 4/3; }
 }
 @media (max-width: 480px) {
   /* Layout spacing */
@@ -602,10 +621,10 @@ section { padding: 96px 0; }
   .cert-icon { width: 44px; height: 44px; }
   .cert-desc { font-size: 10px; }
   /* App cards (ESD Mat Use Scenarios) */
+  .app-img { aspect-ratio: 4/3; }
   .app-body { padding: 16px; }
   .app-body h3 { font-size: 16px; }
   .app-body p { font-size: 13px; }
-  .app-img { aspect-ratio: 16/9; }
   /* Feature cards */
   .feature-card { padding: 28px 20px; }
   .feature-card h3 { font-size: 18px; }
