@@ -576,6 +576,9 @@ section { padding: 96px 0; }
   .hero-cta .btn { width: 100%; max-width: 320px; }
 
   /* Industry applications: vertical stack on mobile */
+  .apps-grid { gap: 16px; }
+  .apps-grid .app-card { margin-bottom: 0; }
+  .app-img { aspect-ratio: 16/9; }
 }
 @media (max-width: 480px) {
   /* Layout spacing */
