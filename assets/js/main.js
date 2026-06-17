@@ -268,6 +268,12 @@ document.addEventListener('DOMContentLoaded', () => {
   renderSpecs();
   initScrollAnimations();
   initVideoLightbox();
+
+  // 语言切换后重绘动态内容
+  document.addEventListener('i18n:change', () => {
+    renderSpecs();
+    renderHomeProducts();
+  });
 });
 
 // ---- Scroll reveal animations ----
