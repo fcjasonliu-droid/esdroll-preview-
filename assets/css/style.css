@@ -693,7 +693,42 @@ section { padding: 96px 0; }
 .section--heroic { padding: 120px 0; }
 .section--alt-bg { background: var(--bg); }
 
-/* ============== WhatsApp Floating Button ============== */
+/* ============== Floating Action Buttons (WhatsApp / Email / Phone) ============== */
+.wa-fab-stack {
+  position: fixed; bottom: 96px; right: 32px; z-index: 98;
+  display: flex; flex-direction: column; gap: 14px;
+  align-items: flex-end;
+}
+.wa-fab {
+  width: 56px; height: 56px; border-radius: 50%;
+  color: white;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  transition: all var(--transition);
+  text-decoration: none;
+}
+.wa-fab:hover { transform: translateY(-4px) scale(1.05); }
+.wa-fab:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.wa-fab svg { width: 26px; height: 26px; fill: white; }
+.wa-fab.wa-whatsapp { background: #25D366; box-shadow: 0 4px 16px rgba(37,211,102,0.4); }
+.wa-fab.wa-whatsapp:hover { background: #1FB855; box-shadow: 0 8px 24px rgba(37,211,102,0.5); }
+.wa-fab.wa-email { background: #3b82f6; box-shadow: 0 4px 16px rgba(59,130,246,0.4); }
+.wa-fab.wa-email:hover { background: #2563eb; box-shadow: 0 8px 24px rgba(59,130,246,0.5); }
+.wa-fab.wa-phone { background: #f59e0b; box-shadow: 0 4px 16px rgba(245,158,11,0.4); }
+.wa-fab.wa-phone:hover { background: #d97706; box-shadow: 0 8px 24px rgba(245,158,11,0.5); }
+.wa-fab-label {
+  position: absolute; right: 70px; top: 50%; transform: translateY(-50%);
+  background: var(--dark); color: white; padding: 6px 12px; border-radius: 6px;
+  font-size: 13px; white-space: nowrap; opacity: 0; pointer-events: none;
+  transition: opacity 0.2s;
+}
+.wa-fab:hover .wa-fab-label, .wa-fab:focus-visible .wa-fab-label { opacity: 1; }
+@media (max-width: 768px) {
+  .wa-fab-stack { bottom: 88px; right: 20px; gap: 10px; }
+  .wa-fab { width: 52px; height: 52px; }
+  .wa-fab svg { width: 24px; height: 24px; }
+  .wa-fab-label { display: none; }
+}
 .wa-float {
   position: fixed; bottom: 96px; right: 32px; z-index: 98;
   width: 56px; height: 56px; border-radius: 50%;
