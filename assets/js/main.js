@@ -327,3 +327,30 @@ function fit() { /* no-op: 视觉统一由 CSS 强制 130×50 框控制 */ }
   window.addEventListener('load', fit);
   window.addEventListener('resize', () => setTimeout(fit, 100));
 })();
+
+// ---- Email FAB fallback: redirect to Gmail compose if mailto fails ----
+(function () {
+  document.addEventListener('click', function (e) {
+    const link = e.target.closest('a.wa-fab.wa-email');
+    if (!link) return;
+    // 桌面端不干预 mailto
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+
+    // 手机端：尝试 mailto 后 800ms 没反应就跳到 Gmail compose
+    const email = 'coco@esdroll.com';
+    const gmailUrl = 'https://mail.google.com/mail/?view=cm&to=' + encodeURIComponent(email);
+
+    e.preventDefault();
+
+    // 触发 mailto
+    const start = Date.now();
+    window.location.href = link.href;
+
+    // 800ms 后页面仍可见就跳 Gmail
+    setTimeout(function () {
+      if (Date.now() - start < 1000 && document.visibilityState === 'visible') {
+        window.open(gmailUrl, '_blank');
+      }
+    }, 800);
+  });
+})();
